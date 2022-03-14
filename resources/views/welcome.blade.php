@@ -8,5 +8,6 @@
     </head>
     <body>
         <div id="hello-react"></div>
+        <div id="counter"></div>
     </body>
 </html>
