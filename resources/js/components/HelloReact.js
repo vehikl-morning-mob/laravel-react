@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 export default function HelloReact() {
     return (
-        <h1>Hello React!</h1>
+        <h1 class="text-3xl font-bold underline">Hello React!</h1>
     );
 }
 
