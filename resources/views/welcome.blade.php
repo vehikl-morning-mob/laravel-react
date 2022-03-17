@@ -8,7 +8,6 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-        <div id="hello-react"></div>
-        <div id="counter"></div>
+        <div id="react"></div>
     </body>
 </html>
