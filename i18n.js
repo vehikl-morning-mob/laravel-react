@@ -14,7 +14,7 @@ i18n
         resources: {
             en: {
                 translation: {
-                    title: 'Our Laravel React App',
+                    title: 'Our {{techStack}} App',
                     button_action: {
                         decrease: 'Decrease',
                         increase: 'Increase',
@@ -23,7 +23,7 @@ i18n
             },
             es: {
                 translation: {
-                    title: 'Nuestra Laravel React Aplicacion',
+                    title: 'Nuestra {{techStack}} Aplicacion',
                     button_action: {
                         decrease: 'Disminuir',
                         increase: 'Aumentar',
@@ -32,7 +32,7 @@ i18n
             },
             ua: {
                 translation: {
-                    title: 'Наш Laravel React додаток',
+                    title: 'Наш {{techStack}} додаток',
                     button_action: {
                         decrease: 'Зменшити',
                         increase: 'Збільшити',
@@ -41,7 +41,7 @@ i18n
             },
             it: {
                 translation: {
-                    title: 'La Nostra Laravel React Applicazione',
+                    title: 'La Nostra {{techStack}} Applicazione',
                     button_action: {
                         decrease: 'Diminuire',
                         increase: 'Aumentare',
