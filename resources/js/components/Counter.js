@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function Counter() {
+    const { t } = useTranslation();
     const [count, setCount] = useState(0);
 
     const handleIncrement = () => {
@@ -17,7 +19,7 @@ export default function Counter() {
                 className='py-2 px-4 border rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'
                 onClick={handleDecrement}
             >
-                Decrease
+                {t('button_action.decrease')}
             </button>
             <span>{count}</span>
             <button
