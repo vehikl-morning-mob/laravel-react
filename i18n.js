@@ -29,8 +29,25 @@ i18n
                         increase: 'Aumentar',
                     }
                 }
+            },
+            ua: {
+                translation: {
+                    title: 'Наш Laravel React додаток',
+                    button_action: {
+                        decrease: 'Зменшити',
+                        increase: 'Збільшити',
+                    }
+                }
+            },
+            it: {
+                translation: {
+                    title: 'La Nostra Laravel React Applicazione',
+                    button_action: {
+                        decrease: 'Diminuire',
+                        increase: 'Aumentare',
+                    }
+                }
             }
-
         }
     });
 
