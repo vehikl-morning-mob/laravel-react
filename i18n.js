@@ -14,11 +14,23 @@ i18n
         resources: {
             en: {
                 translation: {
+                    title: 'Our Laravel React App',
                     button_action: {
                         decrease: 'Decrease',
+                        increase: 'Increase',
+                    }
+                }
+            },
+            es: {
+                translation: {
+                    title: 'Nuestro Laravel React Aplicacion',
+                    button_action: {
+                        decrease: 'Disminuir',
+                        increase: 'Aumentar',
                     }
                 }
             }
+
         }
     });
 

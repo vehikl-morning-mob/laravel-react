@@ -26,7 +26,7 @@ export default function Counter() {
                 className='py-2 px-4 border rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'
                 onClick={handleIncrement}
             >
-                Increase
+                {t('button_action.increase')}
             </button>
         </div>
     );
