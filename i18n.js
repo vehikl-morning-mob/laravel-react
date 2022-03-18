@@ -23,7 +23,7 @@ i18n
             },
             es: {
                 translation: {
-                    title: 'Nuestro Laravel React Aplicacion',
+                    title: 'Nuestra Laravel React Aplicacion',
                     button_action: {
                         decrease: 'Disminuir',
                         increase: 'Aumentar',
