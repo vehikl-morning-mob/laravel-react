@@ -1,5 +1,5 @@
-import React from "react";
-import {useTranslation} from "react-i18next";
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export function LanguageSwitcher() {
     const { i18n } = useTranslation();
@@ -13,7 +13,12 @@ export function LanguageSwitcher() {
 
     return <div className='mt-2'>
         {Object.keys(lngs).map((lng) => (
-            <button key={lng} className='px-2 border rounded mx-2' style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            <button
+                key={lng} className='px-2 border rounded mx-2'
+                style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
+                type='submit'
+                onClick={() => i18n.changeLanguage(lng)}
+            >
                 {lngs[lng].nativeName}
             </button>
         ))}
